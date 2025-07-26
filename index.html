@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CADASTRO DE PRODUTOS</h1>
+    </header>
+    <main>
+        <form>
+            <div class="formgroup"><label for="productname">Nome: <input type="text" name="name" id="productname" required> </label></div>
+            
+            <div class="formgroup"><label for="productprice">Preço do Produto: <input type="number" name="price" id="productprice" required> </label></div>
+            
+            <div class="formgroup"><label for="productcategory">Categoria <input type="text" name="category" id="productcategory" required></label></div>
+            
+            <div class="formgroup"><input type="submit" value="Cadastrar" class="botao"></div>
+        </form>
+        <div class="product-list">
+            <section id="productlist">
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Atividade Curso Desenvolvimento de sistemas de <a href="https://www.mg.senac.br/Paginas/default.aspx" target="_blank">Senac Minas</a></p>
+        <p>Aluno: <a href="https://github.com/alexandregarcia7k" target="_blank">Alexandre Garcia</a></p>
+    </footer>
+
+
+
+    <script src="script.js"> </script>
+</body>
+</html>
